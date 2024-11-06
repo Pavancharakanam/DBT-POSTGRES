@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: postgres_db
+    description: 'a postgres db on my local machine'
+    database: postgres
+    schema: public
+    tables:
+      - name: customers
