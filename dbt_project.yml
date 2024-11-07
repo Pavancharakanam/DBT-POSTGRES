@@ -33,4 +33,4 @@ models:
   postgres:
     # Config indicated by + and applies to all files under models/example/
     Sources:
-      +materialized: view
+      +materialized: table
